@@ -7,9 +7,9 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Introduction to GitHub
+# Houdini Tools
 
-_Get started using GitHub in less than an hour._
+_Houdini shelf tools using python and sop wrangle scripts using vex(c based laungage)._
 
 </header>
 
