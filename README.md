@@ -29,11 +29,11 @@ To automate repetitive processes we can create shelf tool to save time.
 
 To create a shelf tool for houdini first create a new shelf by clicking on '+', then select "New Shelf"
 
-![](\images\Capture.JPG)
+![](/images/Capture.JPG)
 
 You will see a widow like this
 
-![](\images\Capture2.JPG)
+![](/images/Capture2.JPG)
 
 Fill the name and label section, then click apply.
 
@@ -41,7 +41,7 @@ A new shelf tool will be created with the name you filled.
 
 Then right click on empty shelf and select "New Tool", I will open up a new window like this
 
-![](\images\Capture3.JPG)
+![](/images/Capture3.JPG)
 
 Fill the name and label section and in the "Script" section we need to write our python script.
 
@@ -51,7 +51,7 @@ The VEX allows you to write a custom surface node that manipulates point attri
 
 To use vex to manipulate SOP attributes we use "attribute wrangle" node.
 
-![](\images\Capture4.JPG)
+![](/images/Capture4.JPG)
 
 <footer>
 
