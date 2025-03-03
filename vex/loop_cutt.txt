@@ -1,0 +1,24 @@
+i[]@n = polyneighbours(0,@primnum);
+@group_lp = 1;
+int p_strt = @primnum;
+
+ 
+
+int strt = @n[1];
+int count =0;
+while(count<chi('loop_count')){
+    i[]@n = polyneighbours(0,strt);
+    setprimgroup(0,"lp",strt,1);
+    int p_i=0;
+    for(int i = 0; i<4; i++){
+        if(@n[i]==p_strt){
+            p_i = i;
+        }
+    }
+    p_i = (p_i+2)%4;
+    p_strt=strt;
+    strt = @n[p_i];
+    count +=1;
+
+}
+i@p_strt = p_strt;
