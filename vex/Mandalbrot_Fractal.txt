@@ -1,0 +1,19 @@
+float b = ch('boundry');
+float s = ch('scl');
+float x = @P.x/s;
+float y = @P.y/s;
+int itr = chi('iterations');
+int n = 0;
+
+while(n<itr){
+    float t_x =x*x-y*y +@P.x;
+    float t_y =2*x*y +@P.y;
+    x=t_x/s;
+    y=t_y/s;
+    float r = sqrt(pow(t_x,2)+pow(t_y,2));
+    if(r>b){
+        break;
+    }
+    n +=1;
+}
+@density = fit(n,0,itr,0,1);

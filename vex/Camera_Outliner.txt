@@ -1,0 +1,6 @@
+vector dir = normalize(fromNDC(chs("camera"),{0,0,0})-@P);
+float dt = dot(@N,dir);
+@group_bdr = 0;
+if(dt>ch("th") && dt<ch("th_low")){
+    @group_bdr=1;
+}
